@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ludivour2-lit
+  m_Name: Yamashi1-lit
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
   - _NORMALMAP
@@ -36,11 +36,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 2d0bee53414c040a1af159ef06e2fa91, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2cf3a1ca89ee14aaeb9e832863c30ad6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 9054388bd65ef4e8a874847f0df31e2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 95b78b31085a044058d4fe43e07d27c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2d0bee53414c040a1af159ef06e2fa91, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2cf3a1ca89ee14aaeb9e832863c30ad6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

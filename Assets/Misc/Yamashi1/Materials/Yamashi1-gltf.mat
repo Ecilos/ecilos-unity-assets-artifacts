@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ludivour2-gltf
+  m_Name: Yamashi1-gltf
   m_Shader: {fileID: -6465566751694194690, guid: 72971da11a9e54e5b8582edf28dee2bb,
     type: 3}
   m_ValidKeywords: []
@@ -24,8 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: -7706986695116071574, guid: e0cc1fe4f883c494388fb3095e81fe91,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 95b78b31085a044058d4fe43e07d27c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -33,8 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 8987309211235424927, guid: e0cc1fe4f883c494388fb3095e81fe91,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 2cf3a1ca89ee14aaeb9e832863c30ad6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
