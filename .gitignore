@@ -1,0 +1,7 @@
+.DS_Store
+Builds/
+Logs/
+ProjectSettings/FbxExportSettings.asset
+ProjectSettings/Packages/
+Temp/
+UserSettings/
