@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kriaz1-white
+  m_Name: Kriaz1-gltf-white
   m_Shader: {fileID: -6465566751694194690, guid: 72971da11a9e54e5b8582edf28dee2bb,
     type: 3}
   m_ValidKeywords: []
