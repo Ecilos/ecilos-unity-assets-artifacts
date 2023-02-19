@@ -15,57 +15,57 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -270.301
+      value: -0.00500376
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.29
+      value: 0.14600156
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 115.004
+      value: 0.6870007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.000000014901161
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.000000014901161
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
@@ -84,6 +84,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2032592fb299b4152aac27d9a255032b,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8d0164256253842af86f30d0759bec6a, type: 2}
@@ -94,3 +99,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2032592fb299b4152aac27d9a255032b, type: 3}
+--- !u!1 &5085101110758758195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2032592fb299b4152aac27d9a255032b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5354922160319457890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1138768214
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5085101110758758195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ddde2098f34b64dac98169316f2c22b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

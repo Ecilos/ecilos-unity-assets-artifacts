@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kriaz2-gray
+  m_Name: Kriaz2-gray-gltf
   m_Shader: {fileID: -6465566751694194690, guid: 72971da11a9e54e5b8582edf28dee2bb,
     type: 3}
   m_ValidKeywords: []
@@ -50,8 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 7617952411802729741, guid: 28f883ab34c814bd59d52d717cc681a4,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 9a3a6f1a67cb24d45bb478e299ee5dbe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:

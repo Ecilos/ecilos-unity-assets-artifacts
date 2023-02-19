@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3561473056861645154
+--- !u!114 &-9155635297298190349
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kriaz2-blue
+  m_Name: blue-violet-black-lit-gltf
   m_Shader: {fileID: -6465566751694194690, guid: 72971da11a9e54e5b8582edf28dee2bb,
     type: 3}
   m_ValidKeywords: []
@@ -38,20 +38,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 31ddfa8d1ed6648a7a320b317a2d7137, type: 3}
+        m_Texture: {fileID: 2800000, guid: 091b0ad8810ca4ac1820f21759934cc8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 517ab8bd80786434a95ae0ff2364bde6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9fb4d77e0aa5548e684940ed533b403c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 61023c1778e664477b0d1d29f6d25197, type: 3}
+        m_Texture: {fileID: 2800000, guid: aedc3914e546b4c09bfd2b910d57bf73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 7617952411802729741, guid: 28f883ab34c814bd59d52d717cc681a4,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: e53ca91a80aae45138826fd3bff30d3f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -74,10 +73,10 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0
     - _BumpScale: 1
-    - _Metallic: 0.5
+    - _Metallic: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Roughness: 0.5
+    - _Roughness: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

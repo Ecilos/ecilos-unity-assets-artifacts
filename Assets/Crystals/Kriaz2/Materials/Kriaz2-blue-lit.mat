@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-160903704803552524
+--- !u!114 &-3561473056861645154
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,41 +20,47 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ludivour2-gltf
-  m_Shader: {fileID: -6465566751694194690, guid: 72971da11a9e54e5b8582edf28dee2bb,
-    type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_Name: Kriaz2-blue-lit
+  m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+  m_ValidKeywords:
   - _EMISSION
-  - _METALLICGLOSSMAP
   - _NORMALMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 61023c1778e664477b0d1d29f6d25197, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: -7706986695116071574, guid: 7d7b85b79a3c54d8596ced0763cd23c1,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 31ddfa8d1ed6648a7a320b317a2d7137, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 4c13fb4cc107447b6916706901382b26, type: 3}
+        m_Texture: {fileID: 2800000, guid: 517ab8bd80786434a95ae0ff2364bde6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7db117986abef4d3295509ba75604405, type: 3}
+        m_Texture: {fileID: 2800000, guid: 61023c1778e664477b0d1d29f6d25197, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 0ae787598dae64035aa5f9afe67d2c74, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9a3a6f1a67cb24d45bb478e299ee5dbe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -72,13 +78,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
     - _AlphaCutoff: 0
+    - _Blend: 0
     - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _GlossinessSource: 0
     - _Metallic: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Roughness: 1
+    - _ReceiveShadows: 1
+    - _Roughness: 0.5
+    - _Shininess: 0
+    - _Smoothness: 0.5
+    - _SmoothnessSource: 0
+    - _SpecSource: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 3.9999995, g: 3.9999995, b: 3.9999995, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []

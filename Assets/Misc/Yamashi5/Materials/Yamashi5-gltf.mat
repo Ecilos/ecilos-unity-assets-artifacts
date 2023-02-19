@@ -36,8 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 7617952411802729741, guid: f8201fdcb1b4640f4add148b5ecb3aba,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: e4a5e94a0406e42c5a5c0324da1e340f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -60,10 +59,10 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0
     - _BumpScale: 1
-    - _Metallic: 1
+    - _Metallic: 0.8
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Roughness: 1
+    - _Roughness: 0.8
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
