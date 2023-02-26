@@ -35,7 +35,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.6170006
+      value: 7.55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
@@ -86,6 +86,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ReceiveGI
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2032592fb299b4152aac27d9a255032b,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2032592fb299b4152aac27d9a255032b,
         type: 3}
